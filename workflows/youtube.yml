@@ -7,7 +7,7 @@ on:
       - PL0lo9MOBetEFCNnxB1uZcDGcrPO1Jbpz8 #GitHub Changelog
     config:
       filterScript: |
-        return new Date() - 240 * 3600 * 1000 < new Date(item.pubDate) //Recent 240 hours Only
+        return new Date() - 24 * 3600 * 1000 < new Date(item.pubDate) //Recent 240 hours Only
 jobs:
   print:
     name: U2bili workflow
