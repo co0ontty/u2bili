@@ -5,8 +5,8 @@ permissions:
   actions: write
 jobs:
   run:
-    # runs-on: ubuntu-latest
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
+    # runs-on: self-hosted
     name: Clean latest 100 actions log
     steps:
       - uses: actions/github-script@v4

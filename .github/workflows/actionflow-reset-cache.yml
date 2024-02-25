@@ -11,8 +11,8 @@ on:
       - 'workflows/youtube.yml'
 jobs:
   reset:
-    # runs-on: ubuntu-latest
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
+    # runs-on: self-hosted
     name: Reset Actionsflow Cache
     steps:
       - uses: actions/checkout@v2
